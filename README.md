@@ -15,3 +15,5 @@
 3. But what if we can't make the assumption? So next, I'm going to introduce another way of updating the weights, which is known as Gradient Discent.
 
 ## Gradient Descent in Logistic Regression
+1. We can see how we run gradient descent 
+![image](https://github.com/alexyin2/Logistic-Regresssion_Python_Not_Using_Sklearn/blob/master/Image/Gradient_Descent.png)
