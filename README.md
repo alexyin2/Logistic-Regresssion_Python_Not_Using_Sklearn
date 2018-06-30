@@ -17,3 +17,10 @@
 ## Gradient Descent in Logistic Regression
 1. We can see how we run gradient descent 
 ![image](https://github.com/alexyin2/Logistic-Regresssion_Python_Not_Using_Sklearn/blob/master/Image/Gradient_Descent.png)
+
+## Interpreting the weights
+1. When doing Logistic Regression, we may want to intepret the weights like linear regression.
+2. Intuitively, we know that if wi is big large, than adding one unit of the variable will push the outcome closer to 1.
+3. But there is another way of intepreting the weights: odds.
+4. Odds is just P(Y=1|x)/P(Y=0|x), and if we calculate we can find that the outcome is exp(W.T*X).
+5. Then we can take log on the equation and get the following results.
