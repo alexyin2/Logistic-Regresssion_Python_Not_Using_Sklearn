@@ -26,3 +26,4 @@
 5. Then we can take log on the equation and get the following results.
 ![image](https://github.com/alexyin2/Logistic-Regresssion_Python_Not_Using_Sklearn/blob/master/Image/odds.png)
 ![image](https://github.com/alexyin2/Logistic-Regresssion_Python_Not_Using_Sklearn/blob/master/Image/odds_weights.png)
+6. So now we can intepret the weight as when we control other variables to remain the original, when we add 1 unit on variable A, then the exp(odds) will add WA * 1 unit.
