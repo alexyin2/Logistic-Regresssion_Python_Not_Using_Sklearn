@@ -24,3 +24,5 @@
 3. But there is another way of intepreting the weights: odds.
 4. Odds is just P(Y=1|x)/P(Y=0|x), and if we calculate we can find that the outcome is exp(W.T*X).
 5. Then we can take log on the equation and get the following results.
+![image](https://github.com/alexyin2/Logistic-Regresssion_Python_Not_Using_Sklearn/blob/master/Image/odds.png)
+![image](https://github.com/alexyin2/Logistic-Regresssion_Python_Not_Using_Sklearn/blob/master/Image/odds_weights.png)
