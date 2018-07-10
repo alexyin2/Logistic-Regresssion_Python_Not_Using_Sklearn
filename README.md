@@ -27,3 +27,9 @@
 ![image](https://github.com/alexyin2/Logistic-Regresssion_Python_Not_Using_Sklearn/blob/master/Image/odds.png)
 ![image](https://github.com/alexyin2/Logistic-Regresssion_Python_Not_Using_Sklearn/blob/master/Image/odds_weights.png)
 6. So now we can intepret the weight as when we control other variables to remain the original, when we add 1 unit on variable A, then the exp(odds) will add WA * 1 unit.
+
+## L1 Regularization(LASSO Regression) vs. L2 Regularization(RIDGE Regression)
+1. We'll introduce L1 and L2 Regularization.
+2. Both of their goals are to prevent overfitting, while LASSO Regression accomplishes this by choosing the most important features and RIDGE Regression accomplishes this by making the assertion that none of the weights are extremly large.
+3. More detailed mathematics are shown below:
+![imgage](https://github.com/alexyin2/Logistic-Regresssion_Python_Not_Using_Sklearn/blob/master/Image/L1L2Regularization.png)
